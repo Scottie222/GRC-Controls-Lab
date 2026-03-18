@@ -1,0 +1,4 @@
+[
+  {"timestamp": "2026-03-18T08:00:00", "user": "analyst1", "event": "unauthorized login attempt", "severity": "high"},
+  {"timestamp": "2026-03-18T08:15:00", "user": "analyst2", "event": "suspicious file download", "severity": "medium"}
+]
