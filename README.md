@@ -1,17 +1,17 @@
 # GRC Controls Implementation Lab
 
 ## Overview
-This project demonstrates practical implementation of GRC controls using ISO 27001 and NIST CSF.
+This project demonstrates the practical implementation of Governance, Risk, and Compliance (GRC) controls using ISO 27001 and NIST Cybersecurity Framework (CSF).
 
-It is based on the Capital One 2019 breach and shows how real-world security failures can be prevented through proper controls.
+It is based on the Capital One 2019 data breach and illustrates how real-world security failures can be prevented through properly designed and implemented controls.
 
 ---
 
 ## Objectives
 - Implement access management controls
-- Simulate vendor risk management
-- Build incident detection and response
-- Align with GDPR and POPIA
+- Simulate vendor risk management workflows
+- Build incident detection and response processes
+- Align controls with GDPR and POPIA requirements
 
 ---
 
@@ -42,53 +42,64 @@ Demo-Data/
 - vendor-report.txt
 - recovery-actions.json
 
+Implementation-Plan.md
+
 ---
 
 ## Key Features
 
 ### Access Management
-- IAM roles with Terraform
-- Least privilege access
-- MFA simulation
+- IAM roles simulated using Terraform
+- Least privilege access enforcement
+- Multi-factor authentication (MFA) simulation
+- Access logging for monitoring
 
-### Vendor Risk
-- Risk scoring scripts
-- Vendor audit logs
+### Vendor Risk Management
+- Vendor risk scoring simulation
+- Basic workflow for vendor assessment
+- Risk reporting outputs
 
-### Incident Response
-- Simulated incident logs
-- Monitoring dashboards
-- Automated alerts
+### Incident Response & Monitoring
+- Simulated incident detection logs
+- Monitoring and alerting concepts
+- Incident response workflow demonstration
 
 ### Recovery
-- IAM restoration
-- Security improvements
+- Simulated recovery actions
+- IAM reconfiguration
+- Lessons learned documentation
 
 ---
 
-## Compliance
-- ISO 27001
-- NIST CSF
-- GDPR
-- POPIA
+## Compliance Alignment
+
+This project aligns with:
+
+- ISO 27001 (Annex A Controls)
+- NIST Cybersecurity Framework (CSF)
+- GDPR (General Data Protection Regulation)
+- POPIA (Protection of Personal Information Act)
 
 ---
 
 ## Why This Project Matters
-This project shows the ability to move beyond audits and actually implement controls.
+This project demonstrates the ability to move beyond compliance assessments and implement practical security controls.
 
-It demonstrates practical GRC skills required for real-world roles.
+It reflects real-world GRC responsibilities, including control design, implementation, and monitoring aligned with industry frameworks.
 
 ---
 
 ## How to Use
 
-Run scripts:
+### Run Simulations
+Execute the scripts to simulate security operations:
 
 python Scripts/incident-sim.py  
 python Scripts/vendor-risk.py  
 
-(Optional)
+### (Optional) Infrastructure Simulation
+To simulate IAM control deployment:
+
 terraform init  
 terraform apply  
 
@@ -96,4 +107,9 @@ terraform apply
 
 ## Incident Reference
 Capital One Data Breach 2019  
-https://www.capitalone.com/digital/facts2019/
+https://www.cnet.com/tech/tech-industry/capital-one-breach-everything-you-need-to-know/
+
+---
+
+## Conclusion
+This project showcases the transition from theoretical GRC knowledge to practical implementation, demonstrating readiness for real-world GRC roles.
