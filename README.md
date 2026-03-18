@@ -91,11 +91,16 @@ It reflects real-world GRC responsibilities, including control design, implement
 
 ## How to Use
 
+### Setup Environment
+
+Install required packages:
+
+pip install -r requirements.txt
+
 ### Run Simulations
-Execute the scripts to simulate security operations:
 
 python Scripts/incident-sim.py  
-python Scripts/vendor-risk.py  
+python Scripts/vendor-risk.py   
 
 ### (Optional) Infrastructure Simulation
 To simulate IAM control deployment:
