@@ -1,2 +1,7 @@
 pandas
 numpy
+faker
+rich
+python-dotenv
+requests
+matplotlib
