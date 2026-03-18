@@ -1,0 +1,4 @@
+Timestamp,User,Action,Status
+2026-03-18 08:00,analyst1,login attempt,success
+2026-03-18 08:15,analyst2,download file,denied
+2026-03-18 08:30,analyst1,modify settings,success
