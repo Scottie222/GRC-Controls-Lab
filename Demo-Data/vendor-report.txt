@@ -1,0 +1,2 @@
+CloudStorage Inc: {'Risk Score': 7, 'Action': 'Review MFA and permissions'}
+DataVault LLC: {'Risk Score': 7, 'Action': 'Review MFA and permissions'}
