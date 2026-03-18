@@ -97,6 +97,10 @@ Install required packages:
 
 pip install -r requirements.txt
 
+### Run Monitoring Dashboard
+
+python Scripts/monitoring-dashboard.py
+
 ### Run Simulations
 
 python Scripts/incident-sim.py  
