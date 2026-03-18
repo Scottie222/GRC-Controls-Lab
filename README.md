@@ -107,7 +107,7 @@ terraform apply
 
 ## Incident Reference
 Capital One Data Breach 2019  
-https://www.cnet.com/tech/tech-industry/capital-one-breach-everything-you-need-to-know/
+https://www.capitalone.com/digital/facts2019/
 
 ---
 
