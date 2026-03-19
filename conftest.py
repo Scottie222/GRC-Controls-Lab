@@ -1,17 +1,14 @@
 import sys
 import os
-
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'Scripts')))
 ```
 
-5. Click **"Commit changes"** → **"Commit changes"** again
+> ⚠️ **Type it manually or copy ONLY the 4 lines above** — nothing else, no extra text
 
----
-
-## Step 2 — Create Scripts/tests/\_\_init\_\_.py
-
-1. Click **"Add file"** → **"Create new file"**
-2. In the name box type:
+6. The file should look **exactly like this** and nothing more:
 ```
-Scripts/tests/__init__.py
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'Scripts')))
