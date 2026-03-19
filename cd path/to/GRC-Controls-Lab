@@ -1,0 +1,6 @@
+# Empty conftest.py at root
+echo "" > conftest.py
+
+# __init__.py files to make Scripts a proper package
+echo "" > Scripts/__init__.py
+echo "" > Scripts/tests/__init__.py
