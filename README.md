@@ -114,6 +114,8 @@ Capital One Data Breach 2019
 https://www.capitalone.com/digital/facts2019/
 
 ---
+## Breach Analysis
+See [FINDINGS.md](./FINDINGS.md) for a full mapping of Capital One breach findings to controls in this lab.
 
 ## Conclusion
 This project showcases the transition from theoretical GRC knowledge to practical implementation, demonstrating readiness for real-world GRC roles.
