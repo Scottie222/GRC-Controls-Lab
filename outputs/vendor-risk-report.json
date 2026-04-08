@@ -1,0 +1,97 @@
+[
+  {
+    "name": "CloudStorage Inc",
+    "type": "Cloud Infrastructure",
+    "data_access": "Customer PII, Financial Records",
+    "popia_operator": true,
+    "scores": {
+      "access_control": 3,
+      "encryption": 4,
+      "incident_response": 2,
+      "popia_compliance": 3,
+      "penetration_testing": 2,
+      "business_continuity": 3,
+      "contractual_controls": 2
+    },
+    "score": 2.84,
+    "rating": "High",
+    "action": "Monthly review \u00e2\u20ac\u201d remediation plan required within 30 days",
+    "assessment_date": "2026-04-08"
+  },
+  {
+    "name": "DataVault LLC",
+    "type": "Data Processing",
+    "data_access": "Customer PII, Credit Data",
+    "popia_operator": true,
+    "scores": {
+      "access_control": 4,
+      "encryption": 5,
+      "incident_response": 3,
+      "popia_compliance": 4,
+      "penetration_testing": 3,
+      "business_continuity": 4,
+      "contractual_controls": 3
+    },
+    "score": 3.84,
+    "rating": "Medium",
+    "action": "Quarterly review \u00e2\u20ac\u201d implement missing controls within 90 days",
+    "assessment_date": "2026-04-08"
+  },
+  {
+    "name": "SecureNet SA",
+    "type": "Network Security",
+    "data_access": "Network Logs, System Events",
+    "popia_operator": false,
+    "scores": {
+      "access_control": 5,
+      "encryption": 5,
+      "incident_response": 4,
+      "popia_compliance": 4,
+      "penetration_testing": 5,
+      "business_continuity": 4,
+      "contractual_controls": 5
+    },
+    "score": 4.57,
+    "rating": "Low",
+    "action": "Annual review \u00e2\u20ac\u201d maintain current controls",
+    "assessment_date": "2026-04-08"
+  },
+  {
+    "name": "PayProcess (Pty) Ltd",
+    "type": "Payment Processing",
+    "data_access": "Financial Data, Card Data",
+    "popia_operator": true,
+    "scores": {
+      "access_control": 2,
+      "encryption": 3,
+      "incident_response": 2,
+      "popia_compliance": 2,
+      "penetration_testing": 2,
+      "business_continuity": 2,
+      "contractual_controls": 1
+    },
+    "score": 2.11,
+    "rating": "Critical",
+    "action": "Immediate escalation \u00e2\u20ac\u201d suspend or remediate before next processing cycle",
+    "assessment_date": "2026-04-08"
+  },
+  {
+    "name": "AuditTrail Systems",
+    "type": "Compliance & Audit",
+    "data_access": "Audit Logs, Access Records",
+    "popia_operator": false,
+    "scores": {
+      "access_control": 4,
+      "encryption": 4,
+      "incident_response": 4,
+      "popia_compliance": 5,
+      "penetration_testing": 3,
+      "business_continuity": 4,
+      "contractual_controls": 4
+    },
+    "score": 4.06,
+    "rating": "Medium",
+    "action": "Quarterly review \u00e2\u20ac\u201d implement missing controls within 90 days",
+    "assessment_date": "2026-04-08"
+  }
+]

@@ -1,0 +1,6 @@
+Vendor,Type,Data Access,POPIA Operator,Risk Score,Risk Rating,Recommended Action,Assessment Date
+CloudStorage Inc,Cloud Infrastructure,"Customer PII, Financial Records",Yes,2.84,High,Monthly review — remediation plan required within 30 days,2026-04-08
+DataVault LLC,Data Processing,"Customer PII, Credit Data",Yes,3.84,Medium,Quarterly review — implement missing controls within 90 days,2026-04-08
+SecureNet SA,Network Security,"Network Logs, System Events",No,4.57,Low,Annual review — maintain current controls,2026-04-08
+PayProcess (Pty) Ltd,Payment Processing,"Financial Data, Card Data",Yes,2.11,Critical,Immediate escalation — suspend or remediate before next processing cycle,2026-04-08
+AuditTrail Systems,Compliance & Audit,"Audit Logs, Access Records",No,4.06,Medium,Quarterly review — implement missing controls within 90 days,2026-04-08
