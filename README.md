@@ -1,6 +1,6 @@
 # GRC Controls Implementation Lab
 
-**Bakithi Scott Ngcampalala** Cybersecurity & GRC Professional  
+**Bakithi Scott Ngcampalala** Cybersecurity & GRC Professional
 [github.com/Scottie222](https://github.com/Scottie222) · [LinkedIn](https://www.linkedin.com/in/bakithi-scott-ngcampalala-0051a4105)
 
 ---
@@ -10,6 +10,22 @@
 A simulated GRC controls implementation lab grounded in the **real Capital One data breach of 2019**, in which a misconfigured AWS IAM role and SSRF vulnerability allowed a former AWS employee to exfiltrate over 100 million customer records from an S3 bucket.
 
 The lab implements practical controls across ISO 27001:2022 Annex A, NIST CSF 2.0, POPIA and GDPR moving beyond compliance documentation into working Python scripts that simulate access monitoring, vendor risk scoring, incident detection, and response playbook execution. Every script produces real output files.
+
+---
+
+## Dashboard outputs
+
+### Vendor risk scores ISO 27001 A.5.19 | POPIA Section 21
+![Vendor Risk Scores](outputs/chart-vendor-risk.png)
+
+### GRC control implementation status ISO 27001 | NIST CSF | POPIA
+![Control Implementation Status](outputs/chart-control-status.png)
+
+### Security event distribution last 7 days
+![Security Event Distribution](outputs/chart-event-distribution.png)
+
+### Security events over time last 7 days
+![Events Over Time](outputs/chart-events-over-time.png)
 
 ---
 
@@ -33,18 +49,14 @@ The root cause was a combination of overly permissive IAM roles, lack of S3 buck
 
 ## What the lab produces
 
-Running the scripts generates the following outputs in the `outputs/` folder:
-
 | Output file | Script | Description |
 |---|---|---|
 | `vendor-risk-report.csv` | vendor-risk.py | 5 vendors scored across 7 domains — ISO 27001 A.5.19 aligned |
 | `vendor-risk-report.json` | vendor-risk.py | Full JSON with scores, ratings and remediation actions |
 | `vendor-risk-report.txt` | vendor-risk.py | Human-readable vendor risk report with domain breakdowns |
-| `incident-simulation-log.csv` | incident-sim.py | 20 simulated security events with detection results |
-| `incident-simulation-log.json` | incident-sim.py | Full incident log with severity, response actions, ISO/NIST mapping |
-| `incident-simulation-report.txt` | incident-sim.py | Summary report of all detected incidents |
-| `incident-response-demo.csv` | incident_response.py | Demo of the detection and classification engine |
-| `incident-response-demo.json` | incident_response.py | Full response playbook output per event |
+| `incident-simulation-log.csv` | incident_sim.py | 20 simulated security events with detection results |
+| `incident-simulation-log.json` | incident_sim.py | Full incident log with severity, response actions, ISO/NIST mapping |
+| `incident-simulation-report.txt` | incident_sim.py | Summary report of all detected incidents |
 | `access-logs-simulated.csv` | monitoring-dashboard.py | 120 simulated access log entries across 7 days |
 | `chart-event-distribution.png` | monitoring-dashboard.py | Security event distribution bar chart |
 | `chart-vendor-risk.png` | monitoring-dashboard.py | Vendor risk scores with threshold lines |
@@ -64,91 +76,16 @@ Running the scripts generates the following outputs in the `outputs/` folder:
 
 ---
 
-## Project structure
-
-```
-GRC-Controls-Lab/
-├── Scripts/
-│   ├── vendor-risk.py          # Vendor risk scoring engine
-│   ├── incident-sim.py         # Incident simulation — 20 events
-│   ├── incident_response.py    # Detection, classification, response playbooks
-│   ├── monitoring-dashboard.py # PNG chart generation
-│   └── terraform-iam.tf        # Simulated IAM control deployment
-├── ISO27001/
-│   ├── Access-Management.md
-│   ├── Incident-Response.md
-│   └── Vendor-Risk.md
-├── NIST-CSF/
-│   ├── Identify.md
-│   ├── Protect.md
-│   ├── Detect.md
-│   ├── Respond.md
-│   └── Recover.md
-├── Demo-Data/
-│   ├── access-logs.csv
-│   ├── incident-logs.json
-│   ├── vendor-report.txt
-│   └── recovery-actions.json
-├── run_all.py                  # Run everything in one command
-├── Implementation-Plan.md
-├── FINDINGS.md
-├── requirements.txt
-└── outputs/                    # All generated outputs (gitignored)
-```
-
----
-
 ## How to run
-
-### Step 1 Clone the repo
 
 ```bash
 git clone https://github.com/Scottie222/GRC-Controls-Lab.git
 cd GRC-Controls-Lab
-```
-
-### Step 2 Install dependencies
-
-```bash
 pip install -r requirements.txt
-```
-
-### Step 3 Run everything at once
-
-```bash
 python run_all.py
 ```
 
-Or run individual scripts:
-
-```bash
-python Scripts/vendor-risk.py
-python Scripts/incident_response.py
-python Scripts/incident-sim.py
-python Scripts/monitoring-dashboard.py
-```
-
 All outputs are saved to the `outputs/` folder.
-
----
-
-## Requirements
-
-```
-pandas
-numpy
-matplotlib
-faker
-rich
-python-dotenv
-requests
-```
-
-Install with:
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
@@ -162,8 +99,6 @@ pip install -r requirements.txt
 ---
 
 ## Related GRC portfolio projects
-
-All projects grounded in real breach incidents [github.com/Scottie222](https://github.com/Scottie222):
 
 | Project | Domain | Real incident |
 |---|---|---|
