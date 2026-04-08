@@ -1,0 +1,121 @@
+timestamp,user,event,system,ip
+2026-04-03 04:11:49,admin_user,File Read,EC2 Instance,192.168.4.36
+2026-04-03 01:46:49,svc_account_01,Login Failed,IAM Console,192.168.1.24
+2026-04-04 09:29:49,api_gateway,Login Failed,IAM Console,192.168.9.51
+2026-04-08 02:35:49,root_user,Login Success,VPN Gateway,192.168.5.208
+2026-04-01 23:33:49,john.smith,Unauthorized Access,S3 Bucket,192.168.5.40
+2026-04-04 08:34:49,sarah.jones,Login Success,RDS Database,192.168.2.92
+2026-04-05 19:42:49,backup_svc,File Read,WAF,192.168.8.138
+2026-04-03 07:52:49,root_user,Login Success,S3 Bucket,192.168.10.227
+2026-04-06 00:32:49,api_gateway,File Read,IAM Console,192.168.4.198
+2026-04-05 04:48:49,svc_account_01,File Write,CloudTrail,192.168.2.98
+2026-04-05 01:41:49,monitor_agent,Privilege Escalation,S3 Bucket,192.168.3.95
+2026-04-05 22:47:49,api_gateway,Unauthorized Access,WAF,192.168.2.156
+2026-04-03 20:30:49,api_gateway,Login Success,RDS Database,192.168.5.254
+2026-04-08 05:52:49,api_gateway,Unauthorized Access,CloudTrail,192.168.1.59
+2026-04-02 06:32:49,sarah.jones,Login Failed,IAM Console,192.168.4.234
+2026-04-08 08:39:49,sarah.jones,Login Success,RDS Database,192.168.7.227
+2026-04-07 03:04:49,john.smith,Login Success,EC2 Instance,192.168.9.138
+2026-04-04 21:31:49,root_user,File Write,RDS Database,192.168.6.57
+2026-04-03 11:33:49,monitor_agent,Login Success,IAM Console,192.168.2.40
+2026-04-03 17:28:49,root_user,Login Failed,RDS Database,192.168.7.153
+2026-04-07 05:35:49,backup_svc,Policy Change,CloudTrail,192.168.1.175
+2026-04-03 05:03:49,backup_svc,File Read,S3 Bucket,192.168.2.76
+2026-04-06 20:30:49,john.smith,Login Failed,WAF,192.168.5.249
+2026-04-07 14:28:49,john.smith,Login Failed,IAM Console,192.168.5.216
+2026-04-07 16:24:49,api_gateway,Login Success,CloudTrail,192.168.3.139
+2026-04-07 22:36:49,admin_user,Login Failed,RDS Database,192.168.1.29
+2026-04-06 00:54:49,backup_svc,Login Success,EC2 Instance,192.168.10.243
+2026-04-02 19:17:49,svc_account_01,File Read,CloudTrail,192.168.2.251
+2026-04-07 23:14:49,john.smith,Login Success,RDS Database,192.168.9.43
+2026-04-04 22:09:49,root_user,Policy Change,VPN Gateway,192.168.4.183
+2026-04-05 10:54:49,root_user,Policy Change,WAF,192.168.6.113
+2026-04-07 19:06:49,monitor_agent,Login Success,EC2 Instance,192.168.2.87
+2026-04-02 03:31:49,api_gateway,Login Failed,IAM Console,192.168.2.182
+2026-04-02 13:51:49,api_gateway,Login Success,IAM Console,192.168.6.19
+2026-04-07 18:10:49,api_gateway,Login Success,RDS Database,192.168.4.139
+2026-04-03 09:54:49,monitor_agent,Login Success,RDS Database,192.168.7.49
+2026-04-02 23:32:49,svc_account_01,Unauthorized Access,S3 Bucket,192.168.7.106
+2026-04-07 05:18:49,admin_user,Unauthorized Access,WAF,192.168.2.16
+2026-04-06 11:43:49,sarah.jones,File Read,IAM Console,192.168.4.50
+2026-04-04 01:43:49,monitor_agent,Login Success,EC2 Instance,192.168.5.119
+2026-04-04 17:59:49,svc_account_01,Login Failed,CloudTrail,192.168.9.26
+2026-04-02 11:35:49,admin_user,Policy Change,CloudTrail,192.168.4.43
+2026-04-06 12:45:49,monitor_agent,Login Failed,CloudTrail,192.168.7.232
+2026-04-02 13:47:49,john.smith,Login Success,RDS Database,192.168.5.238
+2026-04-07 02:01:49,backup_svc,Login Failed,WAF,192.168.9.170
+2026-04-07 10:40:49,john.smith,Login Success,EC2 Instance,192.168.1.149
+2026-04-08 01:50:49,admin_user,File Read,IAM Console,192.168.1.150
+2026-04-07 07:58:49,john.smith,Login Success,VPN Gateway,192.168.2.218
+2026-04-04 00:31:49,svc_account_01,Login Failed,WAF,192.168.4.104
+2026-04-03 06:31:49,api_gateway,Login Failed,IAM Console,192.168.10.21
+2026-04-06 16:15:49,sarah.jones,File Write,EC2 Instance,192.168.6.62
+2026-04-04 22:18:49,root_user,Login Success,WAF,192.168.5.118
+2026-04-05 12:07:49,svc_account_01,Login Success,VPN Gateway,192.168.10.26
+2026-04-02 17:47:49,api_gateway,Login Failed,EC2 Instance,192.168.6.226
+2026-04-02 16:34:49,api_gateway,Login Success,EC2 Instance,192.168.8.214
+2026-04-08 02:07:49,backup_svc,Privilege Escalation,CloudTrail,192.168.9.3
+2026-04-08 05:13:49,backup_svc,File Write,IAM Console,192.168.3.68
+2026-04-03 05:18:49,svc_account_01,File Read,EC2 Instance,192.168.5.73
+2026-04-08 18:56:49,api_gateway,File Read,EC2 Instance,192.168.5.130
+2026-04-07 11:11:49,backup_svc,File Write,CloudTrail,192.168.1.24
+2026-04-06 17:26:49,backup_svc,Login Success,S3 Bucket,192.168.3.164
+2026-04-04 21:18:49,john.smith,File Read,VPN Gateway,192.168.7.144
+2026-04-02 00:25:49,svc_account_01,Login Success,WAF,192.168.3.140
+2026-04-02 07:37:49,sarah.jones,Login Failed,EC2 Instance,192.168.7.33
+2026-04-02 09:12:49,backup_svc,Login Success,CloudTrail,192.168.1.231
+2026-04-05 23:29:49,api_gateway,Unauthorized Access,WAF,192.168.2.91
+2026-04-08 06:40:49,root_user,Policy Change,WAF,192.168.3.237
+2026-04-04 14:25:49,john.smith,Policy Change,CloudTrail,192.168.3.226
+2026-04-06 14:22:49,admin_user,Login Success,S3 Bucket,192.168.7.206
+2026-04-04 17:32:49,backup_svc,Login Success,WAF,192.168.2.98
+2026-04-02 08:21:49,monitor_agent,Login Success,CloudTrail,192.168.8.90
+2026-04-05 09:07:49,api_gateway,Login Success,WAF,192.168.4.103
+2026-04-05 15:25:49,backup_svc,File Write,CloudTrail,192.168.5.90
+2026-04-07 16:53:49,root_user,Unauthorized Access,CloudTrail,192.168.9.85
+2026-04-02 05:19:49,svc_account_01,File Write,S3 Bucket,192.168.3.149
+2026-04-04 22:16:49,admin_user,Login Success,RDS Database,192.168.6.187
+2026-04-05 11:26:49,root_user,Privilege Escalation,VPN Gateway,192.168.2.99
+2026-04-08 11:13:49,api_gateway,Login Success,WAF,192.168.7.1
+2026-04-07 19:45:49,api_gateway,Login Success,IAM Console,192.168.6.160
+2026-04-05 11:30:49,svc_account_01,File Read,S3 Bucket,192.168.9.80
+2026-04-06 13:18:49,sarah.jones,Login Failed,S3 Bucket,192.168.9.33
+2026-04-04 02:10:49,root_user,Unauthorized Access,RDS Database,192.168.3.158
+2026-04-08 09:11:49,backup_svc,Login Failed,CloudTrail,192.168.1.78
+2026-04-05 04:07:49,api_gateway,Login Failed,VPN Gateway,192.168.10.168
+2026-04-05 13:46:49,monitor_agent,Login Failed,WAF,192.168.4.131
+2026-04-07 06:59:49,john.smith,Unauthorized Access,S3 Bucket,192.168.9.170
+2026-04-05 17:18:49,svc_account_01,File Read,CloudTrail,192.168.4.173
+2026-04-05 10:32:49,api_gateway,File Read,EC2 Instance,192.168.1.12
+2026-04-04 16:38:49,monitor_agent,Privilege Escalation,CloudTrail,192.168.2.117
+2026-04-06 14:57:49,api_gateway,File Read,RDS Database,192.168.8.103
+2026-04-04 16:24:49,john.smith,Unauthorized Access,IAM Console,192.168.2.200
+2026-04-06 17:52:49,api_gateway,Login Success,WAF,192.168.9.119
+2026-04-02 11:29:49,api_gateway,File Write,IAM Console,192.168.8.35
+2026-04-07 04:39:49,sarah.jones,Policy Change,RDS Database,192.168.10.209
+2026-04-07 15:37:49,root_user,File Read,VPN Gateway,192.168.8.230
+2026-04-03 17:14:49,monitor_agent,Login Failed,CloudTrail,192.168.4.216
+2026-04-05 01:30:49,monitor_agent,Privilege Escalation,S3 Bucket,192.168.8.20
+2026-04-05 03:48:49,api_gateway,Login Success,S3 Bucket,192.168.9.21
+2026-04-03 11:34:49,john.smith,Login Success,WAF,192.168.3.181
+2026-04-04 08:12:49,svc_account_01,Login Failed,S3 Bucket,192.168.9.120
+2026-04-06 15:19:49,admin_user,Login Success,RDS Database,192.168.7.232
+2026-04-08 13:16:49,admin_user,File Write,CloudTrail,192.168.10.98
+2026-04-07 08:01:49,admin_user,File Write,S3 Bucket,192.168.7.219
+2026-04-06 16:12:49,api_gateway,Login Failed,S3 Bucket,192.168.7.125
+2026-04-02 05:42:49,root_user,Login Success,WAF,192.168.7.186
+2026-04-03 18:51:49,monitor_agent,File Write,VPN Gateway,192.168.9.7
+2026-04-06 09:22:49,admin_user,Login Success,RDS Database,192.168.3.222
+2026-04-07 03:51:49,john.smith,Login Success,RDS Database,192.168.6.55
+2026-04-07 01:56:49,sarah.jones,Login Success,RDS Database,192.168.5.193
+2026-04-06 16:53:49,backup_svc,File Read,RDS Database,192.168.1.192
+2026-04-08 01:04:49,admin_user,Policy Change,S3 Bucket,192.168.4.167
+2026-04-02 16:31:49,admin_user,File Read,EC2 Instance,192.168.4.215
+2026-04-02 03:20:49,john.smith,Login Success,RDS Database,192.168.2.145
+2026-04-04 09:18:49,monitor_agent,Unauthorized Access,CloudTrail,192.168.6.43
+2026-04-08 19:13:49,svc_account_01,File Read,EC2 Instance,192.168.5.28
+2026-04-08 11:48:49,admin_user,File Write,VPN Gateway,192.168.7.102
+2026-04-04 03:56:49,svc_account_01,Login Failed,CloudTrail,192.168.4.27
+2026-04-05 08:08:49,svc_account_01,File Read,VPN Gateway,192.168.1.89
+2026-04-07 23:15:49,root_user,Unauthorized Access,IAM Console,192.168.9.166
+2026-04-05 18:57:49,admin_user,File Read,CloudTrail,192.168.8.28

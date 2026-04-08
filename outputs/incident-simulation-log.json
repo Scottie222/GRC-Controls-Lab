@@ -1,0 +1,369 @@
+[
+  {
+    "id": "INC-002",
+    "timestamp": "2026-04-07 00:52:44",
+    "event": "Unauthorized API call to metadata service",
+    "user": "sarah.jones",
+    "system": "IAM Console",
+    "incident_detected": true,
+    "severity": "High",
+    "response_actions": [
+      "Contain affected account or system within 30 minutes",
+      "Escalate to Security team lead",
+      "Collect and preserve relevant logs",
+      "Review access control logs for lateral movement",
+      "Reset compromised credentials",
+      "Document timeline and actions taken"
+    ],
+    "status": "In Progress",
+    "iso_clause": "A.5.25",
+    "nist_function": "Respond"
+  },
+  {
+    "id": "INC-009",
+    "timestamp": "2026-04-07 02:52:44",
+    "event": "Login Failed \u00e2\u20ac\u201d account locked after 5 attempts",
+    "user": "svc_account_01",
+    "system": "EC2 Instance i-0abc123",
+    "incident_detected": false,
+    "severity": "None",
+    "response_actions": [],
+    "status": "Resolved",
+    "iso_clause": "N/A",
+    "nist_function": "N/A"
+  },
+  {
+    "id": "INC-006",
+    "timestamp": "2026-04-07 05:56:44",
+    "event": "Privilege Escalation detected on EC2 instance",
+    "user": "root_user",
+    "system": "Lambda Function",
+    "incident_detected": true,
+    "severity": "High",
+    "response_actions": [
+      "Contain affected account or system within 30 minutes",
+      "Escalate to Security team lead",
+      "Collect and preserve relevant logs",
+      "Review access control logs for lateral movement",
+      "Reset compromised credentials",
+      "Document timeline and actions taken"
+    ],
+    "status": "In Progress",
+    "iso_clause": "A.5.25",
+    "nist_function": "Respond"
+  },
+  {
+    "id": "INC-013",
+    "timestamp": "2026-04-07 09:49:44",
+    "event": "Escalation attempt on database role",
+    "user": "root_user",
+    "system": "WAF",
+    "incident_detected": true,
+    "severity": "High",
+    "response_actions": [
+      "Contain affected account or system within 30 minutes",
+      "Escalate to Security team lead",
+      "Collect and preserve relevant logs",
+      "Review access control logs for lateral movement",
+      "Reset compromised credentials",
+      "Document timeline and actions taken"
+    ],
+    "status": "Open",
+    "iso_clause": "A.5.25",
+    "nist_function": "Respond"
+  },
+  {
+    "id": "INC-008",
+    "timestamp": "2026-04-07 10:35:44",
+    "event": "Intrusion detected on VPN gateway",
+    "user": "john.smith",
+    "system": "Lambda Function",
+    "incident_detected": true,
+    "severity": "High",
+    "response_actions": [
+      "Contain affected account or system within 30 minutes",
+      "Escalate to Security team lead",
+      "Collect and preserve relevant logs",
+      "Review access control logs for lateral movement",
+      "Reset compromised credentials",
+      "Document timeline and actions taken"
+    ],
+    "status": "Resolved",
+    "iso_clause": "A.5.25",
+    "nist_function": "Respond"
+  },
+  {
+    "id": "INC-020",
+    "timestamp": "2026-04-07 14:25:44",
+    "event": "Privilege Escalation detected on EC2 instance",
+    "user": "backup_svc",
+    "system": "S3 Bucket prod-data",
+    "incident_detected": true,
+    "severity": "High",
+    "response_actions": [
+      "Contain affected account or system within 30 minutes",
+      "Escalate to Security team lead",
+      "Collect and preserve relevant logs",
+      "Review access control logs for lateral movement",
+      "Reset compromised credentials",
+      "Document timeline and actions taken"
+    ],
+    "status": "In Progress",
+    "iso_clause": "A.5.25",
+    "nist_function": "Respond"
+  },
+  {
+    "id": "INC-007",
+    "timestamp": "2026-04-07 15:25:44",
+    "event": "Breach of IMDS endpoint from EC2 role",
+    "user": "sarah.jones",
+    "system": "RDS Database prod-db",
+    "incident_detected": true,
+    "severity": "Critical",
+    "response_actions": [
+      "Immediately isolate affected system from network",
+      "Escalate to CISO and executive team within 15 minutes",
+      "Preserve all logs and evidence \u00e2\u20ac\u201d do not power off",
+      "Notify Information Regulator under POPIA Section 22 if PII involved",
+      "Engage incident response retainer",
+      "Begin forensic investigation",
+      "Notify affected data subjects if required"
+    ],
+    "status": "Open",
+    "iso_clause": "A.5.25",
+    "nist_function": "Respond"
+  },
+  {
+    "id": "INC-004",
+    "timestamp": "2026-04-07 15:55:44",
+    "event": "Intrusion attempt on firewall rule 443",
+    "user": "sarah.jones",
+    "system": "IAM Console",
+    "incident_detected": true,
+    "severity": "High",
+    "response_actions": [
+      "Contain affected account or system within 30 minutes",
+      "Escalate to Security team lead",
+      "Collect and preserve relevant logs",
+      "Review access control logs for lateral movement",
+      "Reset compromised credentials",
+      "Document timeline and actions taken"
+    ],
+    "status": "In Progress",
+    "iso_clause": "A.5.25",
+    "nist_function": "Respond"
+  },
+  {
+    "id": "INC-010",
+    "timestamp": "2026-04-07 16:52:44",
+    "event": "Unauthorized S3 bucket policy change",
+    "user": "sarah.jones",
+    "system": "CloudTrail",
+    "incident_detected": true,
+    "severity": "High",
+    "response_actions": [
+      "Contain affected account or system within 30 minutes",
+      "Escalate to Security team lead",
+      "Collect and preserve relevant logs",
+      "Review access control logs for lateral movement",
+      "Reset compromised credentials",
+      "Document timeline and actions taken"
+    ],
+    "status": "Open",
+    "iso_clause": "A.5.25",
+    "nist_function": "Respond"
+  },
+  {
+    "id": "INC-005",
+    "timestamp": "2026-04-07 18:56:44",
+    "event": "Login Success from new device",
+    "user": "john.smith",
+    "system": "S3 Bucket prod-data",
+    "incident_detected": false,
+    "severity": "None",
+    "response_actions": [],
+    "status": "Resolved",
+    "iso_clause": "N/A",
+    "nist_function": "N/A"
+  },
+  {
+    "id": "INC-001",
+    "timestamp": "2026-04-07 20:32:44",
+    "event": "Escalation attempt on database role",
+    "user": "api_gateway",
+    "system": "EC2 Instance i-0abc123",
+    "incident_detected": true,
+    "severity": "High",
+    "response_actions": [
+      "Contain affected account or system within 30 minutes",
+      "Escalate to Security team lead",
+      "Collect and preserve relevant logs",
+      "Review access control logs for lateral movement",
+      "Reset compromised credentials",
+      "Document timeline and actions taken"
+    ],
+    "status": "Resolved",
+    "iso_clause": "A.5.25",
+    "nist_function": "Respond"
+  },
+  {
+    "id": "INC-016",
+    "timestamp": "2026-04-07 23:27:44",
+    "event": "Privilege Escalation detected on EC2 instance",
+    "user": "backup_svc",
+    "system": "RDS Database prod-db",
+    "incident_detected": true,
+    "severity": "High",
+    "response_actions": [
+      "Contain affected account or system within 30 minutes",
+      "Escalate to Security team lead",
+      "Collect and preserve relevant logs",
+      "Review access control logs for lateral movement",
+      "Reset compromised credentials",
+      "Document timeline and actions taken"
+    ],
+    "status": "In Progress",
+    "iso_clause": "A.5.25",
+    "nist_function": "Respond"
+  },
+  {
+    "id": "INC-003",
+    "timestamp": "2026-04-08 00:07:44",
+    "event": "Normal user activity \u00e2\u20ac\u201d file read",
+    "user": "sarah.jones",
+    "system": "VPN Gateway",
+    "incident_detected": false,
+    "severity": "None",
+    "response_actions": [],
+    "status": "Resolved",
+    "iso_clause": "N/A",
+    "nist_function": "N/A"
+  },
+  {
+    "id": "INC-018",
+    "timestamp": "2026-04-08 05:27:44",
+    "event": "Unauthorized S3 bucket policy change",
+    "user": "monitor_agent",
+    "system": "Lambda Function",
+    "incident_detected": true,
+    "severity": "High",
+    "response_actions": [
+      "Contain affected account or system within 30 minutes",
+      "Escalate to Security team lead",
+      "Collect and preserve relevant logs",
+      "Review access control logs for lateral movement",
+      "Reset compromised credentials",
+      "Document timeline and actions taken"
+    ],
+    "status": "Resolved",
+    "iso_clause": "A.5.25",
+    "nist_function": "Respond"
+  },
+  {
+    "id": "INC-012",
+    "timestamp": "2026-04-08 06:07:44",
+    "event": "Attack pattern detected in WAF logs",
+    "user": "john.smith",
+    "system": "RDS Database prod-db",
+    "incident_detected": true,
+    "severity": "Medium",
+    "response_actions": [
+      "Investigate event within 4 hours",
+      "Review system and access logs",
+      "Apply relevant patches or configuration fixes",
+      "Update incident log with findings",
+      "Confirm no data exfiltration occurred"
+    ],
+    "status": "In Progress",
+    "iso_clause": "A.5.25",
+    "nist_function": "Respond"
+  },
+  {
+    "id": "INC-011",
+    "timestamp": "2026-04-08 08:50:44",
+    "event": "Breach attempt on S3 bucket ACL",
+    "user": "svc_account_01",
+    "system": "RDS Database prod-db",
+    "incident_detected": true,
+    "severity": "Critical",
+    "response_actions": [
+      "Immediately isolate affected system from network",
+      "Escalate to CISO and executive team within 15 minutes",
+      "Preserve all logs and evidence \u00e2\u20ac\u201d do not power off",
+      "Notify Information Regulator under POPIA Section 22 if PII involved",
+      "Engage incident response retainer",
+      "Begin forensic investigation",
+      "Notify affected data subjects if required"
+    ],
+    "status": "In Progress",
+    "iso_clause": "A.5.25",
+    "nist_function": "Respond"
+  },
+  {
+    "id": "INC-017",
+    "timestamp": "2026-04-08 09:46:44",
+    "event": "Normal batch job completed",
+    "user": "api_gateway",
+    "system": "IAM Console",
+    "incident_detected": false,
+    "severity": "None",
+    "response_actions": [],
+    "status": "Resolved",
+    "iso_clause": "N/A",
+    "nist_function": "N/A"
+  },
+  {
+    "id": "INC-019",
+    "timestamp": "2026-04-08 10:50:44",
+    "event": "Malware signature detected on endpoint",
+    "user": "monitor_agent",
+    "system": "WAF",
+    "incident_detected": true,
+    "severity": "Critical",
+    "response_actions": [
+      "Immediately isolate affected system from network",
+      "Escalate to CISO and executive team within 15 minutes",
+      "Preserve all logs and evidence \u00e2\u20ac\u201d do not power off",
+      "Notify Information Regulator under POPIA Section 22 if PII involved",
+      "Engage incident response retainer",
+      "Begin forensic investigation",
+      "Notify affected data subjects if required"
+    ],
+    "status": "In Progress",
+    "iso_clause": "A.5.25",
+    "nist_function": "Respond"
+  },
+  {
+    "id": "INC-014",
+    "timestamp": "2026-04-08 11:34:44",
+    "event": "Normal file access by admin user",
+    "user": "root_user",
+    "system": "RDS Database prod-db",
+    "incident_detected": false,
+    "severity": "None",
+    "response_actions": [],
+    "status": "Resolved",
+    "iso_clause": "N/A",
+    "nist_function": "N/A"
+  },
+  {
+    "id": "INC-015",
+    "timestamp": "2026-04-08 13:30:44",
+    "event": "Intrusion detected on VPN gateway",
+    "user": "monitor_agent",
+    "system": "IAM Console",
+    "incident_detected": true,
+    "severity": "High",
+    "response_actions": [
+      "Contain affected account or system within 30 minutes",
+      "Escalate to Security team lead",
+      "Collect and preserve relevant logs",
+      "Review access control logs for lateral movement",
+      "Reset compromised credentials",
+      "Document timeline and actions taken"
+    ],
+    "status": "In Progress",
+    "iso_clause": "A.5.25",
+    "nist_function": "Respond"
+  }
+]

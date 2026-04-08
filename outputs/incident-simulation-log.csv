@@ -1,0 +1,21 @@
+id,timestamp,event,user,system,incident_detected,severity,status,iso_clause,nist_function
+INC-002,2026-04-07 00:52:44,Unauthorized API call to metadata service,sarah.jones,IAM Console,True,High,In Progress,A.5.25,Respond
+INC-009,2026-04-07 02:52:44,Login Failed — account locked after 5 attempts,svc_account_01,EC2 Instance i-0abc123,False,None,Resolved,N/A,N/A
+INC-006,2026-04-07 05:56:44,Privilege Escalation detected on EC2 instance,root_user,Lambda Function,True,High,In Progress,A.5.25,Respond
+INC-013,2026-04-07 09:49:44,Escalation attempt on database role,root_user,WAF,True,High,Open,A.5.25,Respond
+INC-008,2026-04-07 10:35:44,Intrusion detected on VPN gateway,john.smith,Lambda Function,True,High,Resolved,A.5.25,Respond
+INC-020,2026-04-07 14:25:44,Privilege Escalation detected on EC2 instance,backup_svc,S3 Bucket prod-data,True,High,In Progress,A.5.25,Respond
+INC-007,2026-04-07 15:25:44,Breach of IMDS endpoint from EC2 role,sarah.jones,RDS Database prod-db,True,Critical,Open,A.5.25,Respond
+INC-004,2026-04-07 15:55:44,Intrusion attempt on firewall rule 443,sarah.jones,IAM Console,True,High,In Progress,A.5.25,Respond
+INC-010,2026-04-07 16:52:44,Unauthorized S3 bucket policy change,sarah.jones,CloudTrail,True,High,Open,A.5.25,Respond
+INC-005,2026-04-07 18:56:44,Login Success from new device,john.smith,S3 Bucket prod-data,False,None,Resolved,N/A,N/A
+INC-001,2026-04-07 20:32:44,Escalation attempt on database role,api_gateway,EC2 Instance i-0abc123,True,High,Resolved,A.5.25,Respond
+INC-016,2026-04-07 23:27:44,Privilege Escalation detected on EC2 instance,backup_svc,RDS Database prod-db,True,High,In Progress,A.5.25,Respond
+INC-003,2026-04-08 00:07:44,Normal user activity — file read,sarah.jones,VPN Gateway,False,None,Resolved,N/A,N/A
+INC-018,2026-04-08 05:27:44,Unauthorized S3 bucket policy change,monitor_agent,Lambda Function,True,High,Resolved,A.5.25,Respond
+INC-012,2026-04-08 06:07:44,Attack pattern detected in WAF logs,john.smith,RDS Database prod-db,True,Medium,In Progress,A.5.25,Respond
+INC-011,2026-04-08 08:50:44,Breach attempt on S3 bucket ACL,svc_account_01,RDS Database prod-db,True,Critical,In Progress,A.5.25,Respond
+INC-017,2026-04-08 09:46:44,Normal batch job completed,api_gateway,IAM Console,False,None,Resolved,N/A,N/A
+INC-019,2026-04-08 10:50:44,Malware signature detected on endpoint,monitor_agent,WAF,True,Critical,In Progress,A.5.25,Respond
+INC-014,2026-04-08 11:34:44,Normal file access by admin user,root_user,RDS Database prod-db,False,None,Resolved,N/A,N/A
+INC-015,2026-04-08 13:30:44,Intrusion detected on VPN gateway,monitor_agent,IAM Console,True,High,In Progress,A.5.25,Respond
