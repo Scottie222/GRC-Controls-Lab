@@ -16,22 +16,22 @@ The lab implements practical controls across ISO 27001:2022 Annex A, NIST CSF 2.
 ## Dashboard outputs
 
 ### Vendor risk scores ISO 27001 A.5.19 | POPIA Section 21
-![Vendor Risk Scores](outputs/chart-vendor-risk.png)
+![Vendor Risk Scores](https://raw.githubusercontent.com/Scottie222/GRC-Controls-Lab/main/outputs/chart-vendor-risk.png)
 
 ### GRC control implementation status ISO 27001 | NIST CSF | POPIA
-![Control Implementation Status](outputs/chart-control-status.png)
+![Control Implementation Status](https://raw.githubusercontent.com/Scottie222/GRC-Controls-Lab/main/outputs/chart-control-status.png)
 
 ### Security event distribution last 7 days
-![Security Event Distribution](outputs/chart-event-distribution.png)
+![Security Event Distribution](https://raw.githubusercontent.com/Scottie222/GRC-Controls-Lab/main/outputs/chart-event-distribution.png)
 
 ### Security events over time last 7 days
-![Events Over Time](outputs/chart-events-over-time.png)
+![Events Over Time](https://raw.githubusercontent.com/Scottie222/GRC-Controls-Lab/main/outputs/chart-events-over-time.png)
 
 ---
 
 ## The real incident
 
-On **19 July 2019**, Capital One disclosed that a former AWS engineer had exploited a misconfigured Web Application Firewall to perform Server-Side Request Forgery (SSRF), allowing her to query the EC2 instance metadata service and obtain temporary IAM credentials. Those credentials were used to list and download 106 million customer records from S3 buckets making it one of the largest financial data breaches in US history.
+On **19 July 2019**, Capital One disclosed that a former AWS engineer had exploited a misconfigured Web Application Firewall to perform Server-Side Request Forgery (SSRF), allowing her to query the EC2 instance metadata service and obtain temporary IAM credentials. Those credentials were used to list and download 106 million customer records from S3 buckets — making it one of the largest financial data breaches in US history.
 
 The root cause was a combination of overly permissive IAM roles, lack of S3 bucket access controls, and insufficient monitoring of credential usage and metadata service access.
 
@@ -73,6 +73,33 @@ The root cause was a combination of overly permissive IAM roles, lack of S3 buck
 | NIST CSF 2.0 | Identify, Protect, Detect, Respond, Recover |
 | POPIA Act 4 of 2013 | Section 19 safeguards, Section 21 operator obligations, Section 22 breach notification |
 | GDPR | Article 32 security of processing, Article 33 breach notification |
+
+---
+
+## Project structure
+GRC-Controls-Lab/
+├── Scripts/
+│   ├── vendor-risk.py
+│   ├── incident_sim.py
+│   ├── incident_response.py
+│   ├── monitoring-dashboard.py
+│   └── terraform-iam.tf
+├── ISO27001/
+│   ├── Access-Management.md
+│   ├── Incident-Response.md
+│   └── Vendor-Risk.md
+├── NIST-CSF/
+│   ├── Identify.md
+│   ├── Protect.md
+│   ├── Detect.md
+│   ├── Respond.md
+│   └── Recover.md
+├── Demo-Data/
+├── outputs/
+├── run_all.py
+├── Implementation-Plan.md
+├── FINDINGS.md
+└── requirements.txt
 
 ---
 
